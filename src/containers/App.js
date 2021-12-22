@@ -1,11 +1,11 @@
 import { Component } from 'react';
 import './App.css';
 
-import ErrorBoundary from '../components/ErrorBoundary';
-import Form from '../components/Form';
-import Books from '../components/Books';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import { ErrorBoundary,
+         Form,
+         Books,
+         Header,
+         Footer } from '../components/index';
 
 const API_KEY = "cAnUXB4uhv2xyVzMZCEkwNO6FdRlpoIh";
 
