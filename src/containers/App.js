@@ -7,7 +7,7 @@ import { ErrorBoundary,
          Header,
          Footer } from '../components/index';
 
-const API_KEY = "cAnUXB4uhv2xyVzMZCEkwNO6FdRlpoIh";
+const API_KEY = process.env.REACT_APP_NYT_API_KEY;
 
 class App extends Component {
   state = {
